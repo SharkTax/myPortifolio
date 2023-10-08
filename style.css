@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans&family=Roboto+Condensed:ital,wght@1,700&family=Roboto:ital@1&family=Tilt+Prism&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Midnightgreen: #04080F;
+    --DartmouthGreen: #507DBC;
+    --PigmentGreen: #A1C6EA;
+    --Mantis: #BBD1EA;
+    --Ecru: #DAE3E5;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--Midnightgreen);
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .5rem;
+    background-color: var(--DartmouthGreen);
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: var(--Ecru);
+    box-shadow: 1px 3px 20px #BBD1EA ;
+}
+
+nav #information{
+    padding: 0.5rem;
+}
+
+nav #information h1{
+    font-size: 2rem;
+    color: black;
+}
+nav #information h1:hover{
+    color: var(--Ecru);
+    transition: 0.3s;
+    padding-left: 1rem;
+}
+
+nav ul{
+    padding-right: 0.5rem;
+    width: 10%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    color: var(--Ecru);
+}
+
+nav ul li{
+    list-style: none;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--Ecru);
+}
+
+#informationProfile{
+    margin: 5rem;
+    color: var(--Ecru);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#informationProfile #mainInformation{
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    height: 100%;
+
+}
+
+#informationProfile #mainInformation #textmain{
+    padding: 0.3rem;
+    text-align: left;
+    border: 1px solid #507DBC;
+}
+
+
+
+#informationProfile #mainInformation #textmain h3{
+    font-size: 1.5rem;
+    margin-bottom: 0.7rem;
+    text-align: center;
+}
+
+#informationProfile #mainInformation #textmain span{
+    color: var(--DartmouthGreen);
+
+}
+
+#informationProfile #imagevictorm{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#informationProfile #imagevictorm img{
+    width: 100%;
+}
